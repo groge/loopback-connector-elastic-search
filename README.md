@@ -54,7 +54,7 @@ Basic Elasticsearch datasource connector for [Loopback](https://loopback.io/).
 
 ```
 cd <yourApp>
-npm install loopback-connector-esv6 --save --save-exact
+npm install loopback-connector-esv7 --save --save-exact
 ```
 
 ## Configuring connector

@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-esv7",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "LoopBack Connector for Elasticsearch 7.x",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,9 @@
     "loopback",
     "elastic",
     "elasticsearch",
-    "elasticsearchv6",
+    "elasticsearchv7",
     "es",
-    "esv6",
+    "esv7",
     "loopback-connector",
     "connector"
   ],

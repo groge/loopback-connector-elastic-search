@@ -1,7 +1,7 @@
 module.exports = {
   'db': {
     'name': 'elasticsearch-6',
-    'connector': 'esv6',
+    'connector': 'esv7',
     'index': 'shakespeare',
     'hosts': [{
       'host': 'localhost',
@@ -26,13 +26,13 @@ module.exports = {
         "type": "text",
         "index": true
       },
-      'realm': { 
-        'type': 'keyword', 
-        'index': true 
+      'realm': {
+        'type': 'keyword',
+        'index': true
       },
-      'username': { 
-        'type': 'keyword', 
-        'index': true 
+      'username': {
+        'type': 'keyword',
+        'index': true
       },
       "description": {
         "type": "text",

@@ -1,5 +1,5 @@
 {
-  "name": "esv6-plain",
+  "name": "esv7-plain",
   "connector": "elasticsearch",
   "index": "shakespeare",
   "hosts": [{
