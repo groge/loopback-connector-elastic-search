@@ -21,20 +21,13 @@
   ],
   "author": "groge",
   "contributors": [
-    {
-      "name": "Daniel Choi",
-      "email": "groge.choi@gmail.com"
-    }
+    "Daniel Choi <groge.choi@gmail.com>"
   ],
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop-community/loopback-connector-elastic-search.git"
+    "url": "git+https://github.com/strongloop-community/loopback-connector-elastic-search.git"
   },
-  "license": {
-    "name": "MIT",
-    "url": "https://github.com/strongloop-community/loopback-connector-elastic-search/blob/master/LICENCE"
-  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/strongloop-community/loopback-connector-elastic-search/issues"
   },
