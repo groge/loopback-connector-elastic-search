@@ -72,7 +72,7 @@ npm install loopback-connector-esv7 --save --save-exact
 - **mappingProperties:** An object with properties for above mentioned **mappingType**
 
 #### Important Note: 
-- This package is created to support ElasticSearch v6.x only.
+- This package is created to support ElasticSearch v7.x only.
 - `docType` property is automatically added in mapping properties which is required to differentiate documents stored in index with loopback model data. It stores loopback modelName value. `docType: { type: "keyword", index: true }`
 
 ### Optional:
@@ -101,7 +101,7 @@ npm install loopback-connector-esv7 --save --save-exact
             "auth": "username:password"
           }
         ],
-        "apiVersion": "6.0",
+        "apiVersion": "7.0",
         "refreshOn": ["save","create", "updateOrCreate"],
         "log": "trace",
         "defaultSize": <defaultSize>,
@@ -149,7 +149,7 @@ npm install loopback-connector-esv7 --save --save-exact
         "settings": {}
     }
     ```
-2. You can peek at `/examples/server/datasources.sample-es-6.json` for more hints.
+2. You can peek at `/examples/server/datasources.sample-es-7.json` for more hints.
 
 ## About the example app
 
