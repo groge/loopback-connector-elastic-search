@@ -1,13 +1,13 @@
 {
-  "name": "loopback-connector-esv6",
-  "version": "1.3.2",
-  "description": "LoopBack Connector for Elasticsearch 6.x",
+  "name": "loopback-connector-esv7",
+  "version": "1.0.0",
+  "description": "LoopBack Connector for Elasticsearch 7.x",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint",
     "pretest": "eslint **/*.js",
     "test": "mocha --recursive",
-    "testv6": "mocha test/es-v6/**/*.js"
+    "testv7": "mocha test/es-v7/**/*.js"
   },
   "keywords": [
     "loopback",
@@ -19,25 +19,11 @@
     "loopback-connector",
     "connector"
   ],
-  "author": "Drakerian",
+  "author": "groge",
   "contributors": [
     {
-      "name": "Pulkit Singhal",
-      "email": "pulkit@shoppinpal.com"
-    },
-    {
-      "name": "yagobski"
-    },
-    {
-      "name": "Aquid Shahwar",
-      "email": "aquid.shahwar@gmail.com"
-    },
-    {
-      "name": "wolfgang-s"
-    },
-    {
-      "name": "Bharath Reddy Kontham",
-      "email": "bharath2211@gmail.com"
+      "name": "Daniel Choi",
+      "email": "groge.choi@gmail.com"
     }
   ],
   "readmeFilename": "README.md",
