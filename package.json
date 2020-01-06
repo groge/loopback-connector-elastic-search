@@ -53,5 +53,6 @@
     "loopback-datasource-juggler": "^2.55.3",
     "mocha": "^1.21.4",
     "should": "^5.2.0"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
